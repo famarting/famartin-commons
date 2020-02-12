@@ -1,0 +1,7 @@
+apiVersion: enmasse.io/v1beta1
+kind: AddressSpace
+metadata:
+  name: space2
+spec:
+  type: brokered
+  plan: brokered-single-broker

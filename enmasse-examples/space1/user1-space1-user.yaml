@@ -1,0 +1,12 @@
+apiVersion: user.enmasse.io/v1beta1
+kind: MessagingUser
+metadata:
+  name: space1.user1
+spec:
+  username: user1
+  authentication:
+    type: password
+    password: dXNlcjE= # Base64 encoded -> user1
+  authorization:
+    - addresses: [ "*"]
+      operations: ["send", "recv"]

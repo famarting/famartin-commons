@@ -1,0 +1,8 @@
+apiVersion: enmasse.io/v1beta1
+kind: Address
+metadata:
+    name: space1.topic1
+spec:
+    address: topic1
+    type: topic
+    plan: standard-small-topic

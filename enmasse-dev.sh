@@ -1,0 +1,1 @@
+export TAG=latest && export DOCKER_ORG=famargon && export DOCKER_REGISTRY=quay.io && export SKIP_TESTS=true && docker login $DOCKER_REGISTRY && make clean && make && make docker_build && make docker_tag && make docker_push

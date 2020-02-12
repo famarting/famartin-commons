@@ -1,0 +1,10 @@
+apiVersion: enmasse.io/v1beta1
+kind: AddressSpace
+metadata:
+  name: space1
+spec:
+  type: standard
+  plan: standard-small
+  endpoints:
+    - name: messaging
+      service: messaging
