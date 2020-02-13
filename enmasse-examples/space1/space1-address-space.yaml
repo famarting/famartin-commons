@@ -5,6 +5,3 @@ metadata:
 spec:
   type: standard
   plan: standard-small
-  endpoints:
-    - name: messaging
-      service: messaging
